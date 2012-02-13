@@ -11,6 +11,10 @@ PRODUCT_NAME := coconut
 PRODUCT_DEVICE := coconut
 PRODUCT_MODEL := coconut
 
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel
+
 -include device/semc/mogami-common/mogami.mk
 
 # These is the hardware-specific overlay, which points to the location
