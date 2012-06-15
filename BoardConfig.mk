@@ -1,6 +1,10 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/coconut/BoardConfigVendor.mk
 
+TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
+TARGET_KERNEL_CONFIG := cyanogen_coconut_defconfig
+TARGET_PREBUILT_KERNEL := device/semc/coconut/prebuilt/kernel
+
 SENSORS_COMPASS_AK897X := true
 SENSORS_ACCEL_BMA150_INPUT := false
 SENSORS_ACCEL_BMA250_INPUT := true
