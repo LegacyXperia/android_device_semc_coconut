@@ -5,6 +5,7 @@ usr/keylayout/AVRCP.kl
 usr/keylayout/msm_pmic_pwr_key.kl
 usr/keylayout/pm8058-keypad.kl
 usr/keylayout/simple_remote.kl
+usr/keylayout/cyttsp_key.kl
 
 ## RIL related stuff 
 lib/libril.so
