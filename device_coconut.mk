@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     device/semc/coconut/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/coconut/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_M.rle:root/logo.rle \
-    device/semc/coconut/recovery.fstab:root/etc/recovery.fstab
+    device/semc/coconut/recovery.fstab:root/recovery.fstab
 
 #device specific features
 PRODUCT_COPY_FILES += \
