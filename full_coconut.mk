@@ -37,4 +37,4 @@ PRODUCT_NAME := full_coconut
 PRODUCT_DEVICE := coconut
 PRODUCT_BRAND := SEMC
 PRODUCT_MANUFACTURER := SEMC
-PRODUCT_MODEL := Xperia Liwe with Walkman
+PRODUCT_MODEL := Xperia Live with Walkman
