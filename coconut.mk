@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/coconut/config/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    device/semc/coconut/config/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    device/semc/coconut/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     device/semc/coconut/config/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     device/semc/coconut/config/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     device/semc/coconut/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
