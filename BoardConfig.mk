@@ -16,3 +16,7 @@ SENSORS_PRESSURE_BMP180 := false
 BOARD_USES_STEREO_HW_SPEAKER := true
 
 TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
+
+#Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/semc/coconut/bluetooth/vnd_coconut.txt

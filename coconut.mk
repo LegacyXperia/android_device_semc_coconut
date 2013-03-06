@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/coconut/recovery/bootrec-device:recovery/bootrec-device
 
+# Bluetooth config
+PRODUCT_COPY_FILES += \
+    device/semc/coconut/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/coconut/config/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
