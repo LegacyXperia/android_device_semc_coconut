@@ -20,4 +20,3 @@ TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/semc/coconut/bluetooth/vnd_coconut.txt
