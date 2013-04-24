@@ -18,7 +18,7 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_COPY_FILES += \
     device/semc/coconut/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
     device/semc/coconut/prebuilt/hw_config.sh:system/etc/hw_config.sh \
-    device/semc/msm7x30-common/prebuilt/logo_M.rle:root/logo.rle
+    device/semc/msm7x30-common/prebuilt/logo_M.rle:root/initlogo.rle
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
