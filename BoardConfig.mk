@@ -19,4 +19,4 @@ BOARD_USES_STEREO_HW_SPEAKER := true
 TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluedroid
