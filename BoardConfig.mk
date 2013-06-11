@@ -18,10 +18,6 @@
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluedroid
 
-# Boot Animation
-TARGET_SCREEN_HEIGHT := 480
-TARGET_SCREEN_WIDTH := 320
-
 # Kernel
 TARGET_KERNEL_CONFIG := nAa_coconut_defconfig
 
