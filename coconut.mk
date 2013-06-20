@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # proprietary side of the device
-$(call inherit-product-if-exists, vendor/semc/coconut/coconut-vendor.mk)
+$(call inherit-product, vendor/semc/coconut/coconut-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/semc/coconut/overlay
 
