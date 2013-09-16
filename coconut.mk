@@ -40,11 +40,8 @@ PRODUCT_COPY_FILES += \
 # Device specific configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     $(LOCAL_PATH)/rootdir/system/usr/keylayout/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pm8xxx-keypad.kl:system/usr/keylayout/pm8xxx-keypad.kl \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
     $(LOCAL_PATH)/rootdir/system/etc/tiwlan.ini:system/etc/tiwlan.ini
 

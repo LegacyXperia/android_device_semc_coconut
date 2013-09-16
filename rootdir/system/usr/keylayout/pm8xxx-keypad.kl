@@ -1,17 +1,18 @@
+# file pm8xxx-keypad.kl
 # this corresponds to kernel/arch/arm/mach-msm/keypad-coconut.c
 #
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
+# KEY_VOLUMEUP, KEY_VOLUMEDOWN
 key 115   VOLUME_UP         WAKE
 key 114   VOLUME_DOWN       WAKE
 
 # KEY_HOME
 key 102   HOME              WAKE_DROPPED
 
-# CAMERA Related Key
+# KEY_CAMERA, KEY_CAMERA_FOCUS
 key 212   CAMERA
 key 528   FOCUS
 
-# WALKMAN key
-key 200   MUSIC  WAKE
-
+# KEY_PLAYCD
+key 200   MUSIC             WAKE
