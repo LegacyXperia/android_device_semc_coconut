@@ -56,10 +56,6 @@ usr/semc/camera/STW05BN0.dat
 usr/semc/camera/STW05BN0_BH6476.dat
 usr/semc/camera/STW05BN0_IMX072.dat
 
-# Battery
-bin/bq275xx_fwloader
-etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs
-
 # Other libraries and proprietary binaries
 bin/akmd8975
 bin/chargemon
