@@ -34,4 +34,4 @@ TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
 BOARD_USES_STEREO_HW_SPEAKER := true
 
 # CM Hardware tunables
-BOARD_HARDWARE_CLASS := device/semc/coconut/cmhw
+BOARD_HARDWARE_CLASS += device/semc/coconut/cmhw
