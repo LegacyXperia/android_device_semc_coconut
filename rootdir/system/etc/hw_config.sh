@@ -22,10 +22,10 @@ case $hwid in
   val_filter=0
   ;;
  *)
-  val_cycle=2
-  val_nburst=0
-  val_freq=2
-  val_threshold=5
+  val_cycle=0
+  val_nburst=26
+  val_freq=0
+  val_threshold=2
   val_filter=0
   ;;
 esac
