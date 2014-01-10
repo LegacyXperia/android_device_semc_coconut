@@ -18,3 +18,8 @@ char const*const BUTTON_BACKLIGHT_FILE[] = {
   "/sys/class/leds/button-backlight-rgb1/brightness",
   "/sys/class/leds/button-backlight-rgb2/brightness"
 };
+
+char const*const MUSIC_LIGHT_FILE[] = {
+  "/sys/class/leds/music-light-rgb1/brightness",
+  "/sys/class/leds/music-light-rgb2/brightness"
+};
