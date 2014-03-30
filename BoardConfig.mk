@@ -21,7 +21,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/semc/coconut/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluedroid
 
 # Kernel
-TARGET_KERNEL_CONFIG := nAa_coconut_defconfig
+TARGET_KERNEL_CONFIG := lx_coconut_defconfig
 
 # Sensors
 SOMC_CFG_SENSORS_ACCEL_BMA250_INPUT := yes
