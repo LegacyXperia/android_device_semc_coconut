@@ -30,6 +30,9 @@ SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 # Assert
 TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
 
+# Stereo speaker
+BOARD_USES_STEREO_HW_SPEAKER := true
+
 # No back mic
 BOARD_HAVE_BACK_MIC_CAMCORDER := false
 
