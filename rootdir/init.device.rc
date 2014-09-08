@@ -1,9 +1,7 @@
 on boot
     # Button backlight
-    chown system system /sys/class/leds/button-backlight-rgb1/brightness
-    chmod 660 /sys/class/leds/button-backlight-rgb1/brightness
-    chown system system /sys/class/leds/button-backlight-rgb2/brightness
-    chmod 660 /sys/class/leds/button-backlight-rgb2/brightness
+    chown system system /sys/class/leds/button-backlight/brightness
+    chmod 660 /sys/class/leds/button-backlight/brightness
 
     # LM35xx/cameralight
     chown system camera /sys/devices/i2c-0/0-0053/torch_enable
