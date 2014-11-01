@@ -53,20 +53,8 @@ usr/semc/camera/STW05BN0.dat
 usr/semc/camera/STW05BN0_BH6476.dat
 usr/semc/camera/STW05BN0_IMX072.dat
 
-# Calibration
-bin/nv_param_loader
-bin/nvcustomizer
-bin/nvimport
-
-# Audio
-lib/libaudioalsa.so
-
 # Compass
 bin/akmd8975
-
-# Offline charging
-bin/chargemon
-lib/libmiscta.so
 
 # Touchscreen firmware
 bin/cyttsp_fwloader
