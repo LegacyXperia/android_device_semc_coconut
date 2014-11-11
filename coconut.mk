@@ -23,11 +23,8 @@ $(call inherit-product, device/semc/mogami-common/mogami.mk)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
 
-# This device is mdpi.  However the platform doesn't
-# currently contain all of the bitmaps at mdpi density so
-# we do this little trick to fall back to the hdpi version
-# if the mdpi doesn't exist.
-PRODUCT_AAPT_CONFIG := normal mdpi hdpi
+# Density
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Init files
