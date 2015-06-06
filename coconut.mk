@@ -46,4 +46,5 @@ PRODUCT_COPY_FILES += \
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=160
+    ro.sf.lcd_density=160 \
+    ro.usb.pid_suffix=16D
